@@ -8,31 +8,97 @@ body {
 }
 
 table.logo-table {
-    border-collapse:separate; 
+    border-collapse: separate;
     border-spacing: 0 1em;
 }
 
- .sidebar-column{
-     
- }
+.sidebar-column {}
 
- .launch-year-title{
+.launch-year-title {
     text-align: center;
-     font-size: 15px; 
- }
+    font-size: 15px;
+}
 
- .launch-filters{
-     margin: 0px 6px 6px 29px; 
- }
+.company-logo {
+    background-color: white;
+    margin-bottom: 15px;
+}
 
- .company-logo{
-     background-color:white;
-     margin-bottom: 15px;
- }
- .table-padding{
+.table-padding {
     width: 150px;
     text-align: center;
     border: 1px solid black;
     padding: 5px;
-     padding: 15px;
- }
+    padding: 15px;
+}
+
+.col-box {
+    background-color: #fff;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.col-box>img {
+    width: 100%;
+    height: 234px;
+    margin-bottom: 20px;
+    background: #ddd;
+    padding: 10px 10px;
+}
+
+.col-box h5 {
+    font-size: 14px;
+    ;
+}
+
+.col-box h5 span {
+    color: #c2c6cf;
+    font-size: 13px;
+}
+
+.col-box p {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.listing-col-box {
+    margin: 0px 0px 8px 0px;
+    padding-left: 20px;
+}
+
+.listing-col-box>li {
+    font-size: 13px;
+}
+
+.filter-column {
+    background-color: #fff;
+    padding: 10px 10px;
+}
+
+.btn-filter {
+    background: #6fe76f;
+    border: 0;
+    font-size: 14px;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin: 3px 4px;
+    width: 43%
+}
+
+.title-heading {
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #dee2e6;
+    margin: 10px 0px;
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    z-index: 1000;
+    height: 31px;
+    width: 31px;
+}

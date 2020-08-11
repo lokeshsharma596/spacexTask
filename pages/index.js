@@ -31,23 +31,24 @@ const Index = (props) => {
       <h3>SpaceX Launch Programs</h3>
       <div className="row border-body">
         <div className="col-md-3 sidebar-column">
-          <h3>Filters</h3>
-          <h3 className="launch-year-title border-bottom">Launch Year</h3>
+          <h6>Filters</h6>
+          <h6 className="title-heading" style={{ color: '#000' }}>Launch Year</h6>
           <div className="launch-filters">
 
             {launchYear.map((year, i) => (
-              <button onClick={() => setFilter({ ...filter, launch_year: year })}>{year}</button>
+              <button className="btn-filter" onClick={() => setFilter({ ...filter, launch_year: year })}>{year}</button>
             ))}
 
-            <p>Successfull Launch</p>
-            <button  onClick={() => setFilter({ ...filter, launch_success: true })}>True</button>
-            <button  onClick={() => setFilter({ ...filter, launch_success: false })}>False</button>
+            <h6 className="title-heading">Successfull Launch</h6>
+            <button className="btn-filter" onClick={() => setFilter({ ...filter, launch_success: true })}>True</button>
+            <button className="btn-filter" onClick={() => setFilter({ ...filter, launch_success: false })}>False</button>
 
-            <p>Successfull Landing</p>
-            <button  onClick={() => setFilter({ ...filter, land_success: true })}>True</button>
-            <button  onClick={() => setFilter({ ...filter, land_success: false })}>False</button>
+            <h6 className="title-heading">Successfull Landing</h6>
+            <button className="btn-filter" onClick={() => setFilter({ ...filter, land_success: true })}>True</button>
+            <button className="btn-filter" onClick={() => setFilter({ ...filter, land_success: false })}>False</button>
 
-            <button  onClick={() => setFilter({})} >Clear Filter</button>
+            <h6 className="title-heading">Reset Filter</h6>
+            <button className="btn-filter" onClick={() => setFilter({})} >Clear Filter</button>
           </div>
 
         </div>
@@ -59,7 +60,7 @@ const Index = (props) => {
             : <MyLoader />}
         </div>
       </div>
-      <p>developed By: Lokesh Sharma</p>
+      <p style={{textAlign: 'center'}}>Developed By: Lokesh Sharma</p>
     </BaseLayout>
   )
 }

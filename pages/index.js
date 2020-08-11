@@ -30,7 +30,7 @@ const Index = (props) => {
     <BaseLayout>
       <h3>SpaceX Launch Programs</h3>
       <div className="row border-body">
-        <div className="col-md-3 sidebar-column">
+        <div className="col-md-3">
           <h6>Filters</h6>
           <h6 className="title-heading" style={{ color: '#000' }}>Launch Year</h6>
           <div className="launch-filters">

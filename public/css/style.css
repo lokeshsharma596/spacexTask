@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-weight: 400;
+    text-align: left;
+    font-size: 16px;
+    background-color: #F0F0F5;
+    padding-bottom: 60px;
+}
+
+table.logo-table {
+    border-collapse:separate; 
+    border-spacing: 0 1em;
+}
+
+ .sidebar-column{
+     
+ }
+
+ .launch-year-title{
+    text-align: center;
+     font-size: 15px; 
+ }
+
+ .launch-filters{
+     margin: 0px 6px 6px 29px; 
+ }
+
+ .company-logo{
+     background-color:white;
+     margin-bottom: 15px;
+ }
+ .table-padding{
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+     padding: 15px;
+ }

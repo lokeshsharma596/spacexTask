@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+#packages
+node_modules/
+.npm
+.next
+.next/
+
+
+package-lock.json
+.DS_Store

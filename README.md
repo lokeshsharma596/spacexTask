@@ -5,13 +5,21 @@ Assignment for interview
 2. Express js is used on server side.
 3. Setup Instructions :
     1. Development Server
-        -> git clone https://github.com/lokeshsharma596/spacexTask.git
-        -> cd spacexTask
-        -> npm install
-        -> npm run dev
+        
+       a). git clone https://github.com/lokeshsharma596/spacexTask.git
+
+       b). cd spacexTask
+
+       c). npm install
+
+       d). npm run dev
+
     2. Deployment on Production
-        -> in server.js set enviornment to production- process.env.NODE_ENV === "production",
-        -> npm run build
-        -> pm2/node server.js
+
+        a). in server.js set enviornment to production- process.env.NODE_ENV === "production",
+
+        b). npm run build
+
+        c). pm2/node server.js
 
 

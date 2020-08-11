@@ -1,11 +1,13 @@
 const express = require("express");
 const next = require("next");
 const fetch = require('node-fetch');
+const bodyParser = require('body-parser');
+
 
 const PORT = 8081;
 
 const app = next({
-    dev: process.env.NODE_ENV === "production",
+    dev: process.env.NODE_ENV !== "production",
 });
 
 const nextExpress = require("next-express/server")(app).injectInto(express);
@@ -15,6 +17,8 @@ app.prepare()
     .then(() => {
 
         const server = nextExpress();
+        server.use(bodyParser.urlencoded({ extended: true }))
+        server.use(bodyParser.json())
 
         server.pageRoute({
             path: "/",

@@ -40,14 +40,14 @@ const Index = (props) => {
             ))}
 
             <p>Successfull Launch</p>
-            <button onClick={() => setFilter({ ...filter, launch_success: true })}>True</button>
-            <button onClick={() => setFilter({ ...filter, launch_success: false })}>False</button>
+            <button  onClick={() => setFilter({ ...filter, launch_success: true })}>True</button>
+            <button  onClick={() => setFilter({ ...filter, launch_success: false })}>False</button>
 
             <p>Successfull Landing</p>
-            <button onClick={() => setFilter({ ...filter, land_success: true })}>True</button>
-            <button onClick={() => setFilter({ ...filter, land_success: false })}>False</button>
+            <button  onClick={() => setFilter({ ...filter, land_success: true })}>True</button>
+            <button  onClick={() => setFilter({ ...filter, land_success: false })}>False</button>
 
-            <button onClick={() => setFilter({})} >Clear Filter</button>
+            <button  onClick={() => setFilter({})} >Clear Filter</button>
           </div>
 
         </div>

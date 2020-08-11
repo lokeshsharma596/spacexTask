@@ -12,7 +12,9 @@ Assignment for interview
 
        c). npm install
 
-       d). npm run dev
+       d). in server.js set enviornment to dev - process.env.NODE_ENV !== "production",
+
+       e). npm run dev
 
     2. Deployment on Production
 
@@ -23,3 +25,12 @@ Assignment for interview
         c). pm2/node server.js
 
 
+
+Visual Design ScreenShots:
+
+Desktop:
+    1.  https://drive.google.com/file/d/1XcETlWuOyhSMV1Y79enlgoGPzBuRfMwV/view?usp=sharing
+    2.  https://drive.google.com/file/d/1JBK0TcuNB9ukzzCtYJQ0NzH1eYXOIQVq/view?usp=sharing
+
+Mobile:
+   1. https://drive.google.com/file/d/1sCvt4HqS2JNmCORLryeWEzyYjeKpl5Xf/view?usp=sharing

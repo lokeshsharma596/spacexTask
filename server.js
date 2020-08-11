@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const PORT = 8080;
 
 const app = next({
-    dev: process.env.NODE_ENV !== "production",
+    dev: process.env.NODE_ENV === "production",
 });
 
 const nextExpress = require("next-express/server")(app).injectInto(express);

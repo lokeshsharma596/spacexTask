@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 const bodyParser = require('body-parser');
 
 
-const PORT = 8080;
+const PORT = process.env.PORT || 5000;
 
 const app = next({
     dev: process.env.NODE_ENV === "production",
